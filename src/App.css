@@ -6,11 +6,11 @@
   display: flex;
 }
 
-.LinkedinIcon{
+.LinkedinIcon {
   padding: 10px;
 }
 
-.GithubIcon{
+.GithubIcon {
   padding: 10px;
 }
 
@@ -37,7 +37,6 @@
 .BodyPart {
   /* height: calc(100% - 65px); */
   width: 100%;
-
 }
 
 .Profile {
@@ -182,7 +181,6 @@
 }
 
 .projectDiv .tech {
-  background-color: #fff;
   display: inline-block;
   position: absolute;
   top: 16px;
@@ -220,7 +218,6 @@
   display: flex;
 }
 
-
 .Demo .leftSide {
   color: #000;
   flex-direction: column;
@@ -235,7 +232,7 @@
   align-items: flex-start;
 }
 
-.Demo .title{
+.Demo .title {
   color: #fff;
   font-size: 48px;
   width: 70%;
@@ -258,14 +255,14 @@
 /* .herokuLogo{
   margin-top: 20px;
 } */
-.demoDiv{
+.demoDiv {
   width: 200px;
   height: 64px;
   text-align: center;
   margin-top: 20px;
 }
 
-.demoDiv a{
+.demoDiv a {
   text-decoration: none;
   font-size: 24px;
   color: #000;
@@ -273,39 +270,39 @@
   height: 40px;
 }
 
-.demoDiv a:hover{
+.demoDiv a:hover {
   border-bottom: 4px solid #1f7d7e;
 }
 
-.herokuLogo{
+.herokuLogo {
   margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 600px) {
-  .LinkedinIcon{
+  .LinkedinIcon {
     display: none;
   }
 
-  .GithubIcon{
+  .GithubIcon {
     display: none;
   }
 
-  .leftSide,.rightSide{
+  .leftSide,
+  .rightSide {
     width: 100%;
   }
 
-  .Demo{
+  .Demo {
     flex-direction: column;
   }
 
   .Demo .leftSide,
-  .Demo .rightSide{
+  .Demo .rightSide {
     height: auto;
     width: 100%;
   }
 
-
-  .Demo .subtitle{
+  .Demo .subtitle {
     max-width: 300px;
     min-width: 200px;
   }

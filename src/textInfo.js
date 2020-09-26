@@ -106,13 +106,13 @@ let resumeInfo = {
 let projectInfo = [
   {
     name: "Weather Box",
-    tech: "nodejs.svg",
+    tech: "react.svg",
     description: "Node(Express.js and React) with OpenWeatherAPI",
     link: "https://github.com/zzhalex/weathermap",
   },
   {
     name: "Teamwork",
-    tech: "react.svg",
+    tech: "nodejs.svg",
     description: "Node application",
     link: "https://github.com/zzhalex/teamwork",
   },

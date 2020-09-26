@@ -2,11 +2,9 @@ import React from "react";
 
 class NavItem extends React.Component {
   setActive = (e) => {
-    console.log(e.target.id);
     this.props.getActive(e.target.id);
   };
   render() {
-    console.log(this.props.active, this.props.value);
     let Class = "NavItem";
     if (this.props.value === parseInt(this.props.active)) {
       Class = "NavItem active";
@@ -55,16 +53,12 @@ const gitHub = (
 
 class Header extends React.Component {
   getActive = (data) => {
-    console.log("------");
-    console.log(data);
     this.props.setHeader(data);
   };
 
   render() {
     const numbers = this.props.numbers;
     const activeIndex = this.props.activeId;
-
-    console.log("Index:", activeIndex);
     const NavItemList = numbers.map((number) => (
       <NavItem
         key={number.id.toString()}

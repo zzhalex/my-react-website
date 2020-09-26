@@ -8,7 +8,6 @@ import textInfo from "./textInfo";
 
 let headerInfo = textInfo.headerinfo;
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -16,19 +15,17 @@ class App extends React.Component {
   }
 
   setHeader = (data) => {
-    console.log("APP");
-    console.log(data);
     this.setState({
-      activeId:data
-    })
+      activeId: data,
+    });
   };
   render() {
-    let Nav = this.state.navItems
-    let activeId = this.state.activeId
+    let Nav = this.state.navItems;
+    let activeId = this.state.activeId;
     return (
       <div className="App">
         <Header numbers={Nav} activeId={activeId} setHeader={this.setHeader} />
-        <Body activeId = {activeId} />
+        <Body activeId={activeId} />
       </div>
     );
   }
