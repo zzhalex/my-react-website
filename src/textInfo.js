@@ -22,22 +22,19 @@ let profileinfo = [
         name: "Playlist",
         type: "img/nodejs.png",
         link: "https://csil-git1.cs.surrey.sfu.ca/zhihaoz/ex6-470",
-        desp:
-          "Developed a Playlists web app by using Node.js, SQL, jQuery.Provisioned app automatically using Vagrant and Chef, and used Nginx as the Web server. Used DB driver to load data from the database and show all of them to user.",
+        desp: "Developed a Playlists web app by using Node.js, SQL, jQuery.Provisioned app automatically using Vagrant and Chef, and used Nginx as the Web server. Used DB driver to load data from the database and show all of them to user.",
       },
       {
         name: "HotCooks",
         type: "img/rails.png",
         link: "https://csil-git1.cs.surrey.sfu.ca/mca117/HotCooks",
-        desp:
-          "HotCooks is a website where users can share their recipes, cooking materials and food masterpieces. This website can help users learn to cook and fall in love with cooking. Users can make friends and learn different cooking styles from each other.",
+        desp: "HotCooks is a website where users can share their recipes, cooking materials and food masterpieces. This website can help users learn to cook and fall in love with cooking. Users can make friends and learn different cooking styles from each other.",
       },
       {
         name: "MvcMovie",
         type: "img/net.png",
         link: "https://csil-git1.cs.surrey.sfu.ca/zhihaoz/MvcMovie",
-        desp:
-          "Used .NET MVC to build the web-based application to sharing Movie. Completed the API for users to upload, delete and change data. Used SQL server local DB to maintain database and table for the application.",
+        desp: "Used .NET MVC to build the web-based application to sharing Movie. Completed the API for users to upload, delete and change data. Used SQL server local DB to maintain database and table for the application.",
       },
     ],
   },
@@ -49,8 +46,7 @@ let profileinfo = [
         name: "PHP Blog",
         type: "img/php.png",
         link: "https://gentle-spire-84245.herokuapp.com/",
-        desp:
-          "Used PHP and MongoDB to build a web blog. Can do post, update, delete action. Then I deploy the app to Heroku with mLab MongoDB.",
+        desp: "Used PHP and MongoDB to build a web blog. Can do post, update, delete action. Then I deploy the app to Heroku with mLab MongoDB.",
       },
       {
         name: "Login PHP",
@@ -62,8 +58,7 @@ let profileinfo = [
         name: "Weather Map",
         type: "img/nodejs.png",
         link: "https://github.com/zzhalex/weathermap",
-        desp:
-          "Used Node.js, Google map and Heroku to make a weather map. Get data from Environment Canada and render them into Gmap information box.",
+        desp: "Used Node.js, Google map and Heroku to make a weather map. Get data from Environment Canada and render them into Gmap information box.",
       },
     ],
   },
@@ -83,23 +78,23 @@ let resumeInfo = {
   },
   work: [
     {
+      company: "xMatters, an Everbridge company",
+      location: "Vancouver, BC",
+      position: "UI Developer",
+      time: "2021 July - Present",
+    },
+    {
       company: "D3 Security Managment System Inc.",
       location: "Vancouver, BC",
-      position: "Software Developer",
-      time: "2019 January - Present",
+      position: "Front End Developer",
+      time: "2019 January - 2021 June",
     },
     {
       company: "Robbox Inc.",
       location: "Richmond, BC",
       position: "Web Developer",
       time: "2018 August - 2019 January",
-    },
-    {
-      company: "Alpha Pay",
-      location: "Richmond, BC",
-      position: "Web Developer",
-      time: "2017 September - 2018 January",
-    },
+    }
   ],
 };
 

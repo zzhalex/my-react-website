@@ -24,7 +24,7 @@ class NavItem extends React.Component {
 const linkedIn = (
   <a
     className="linkedinLink"
-    href="https://www.linkedin.com/in/zhihao-zhou-734552a5/"
+    href="https://www.linkedin.com/in/zzhalex/"
     target="_blank"
     rel="noopener noreferrer"
   >
